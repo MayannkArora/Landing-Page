@@ -87,7 +87,28 @@ h2{
 }
 
 .quote .author{
-    margin-left: 80%;
+    margin-left: 70%;    
+}
+
+.joinus{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    background-color: blue;
+    align-items: center;
+    justify-content: space-around;
     
-    
+}
+
+.joinus .left {
+    color: white;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
