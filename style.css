@@ -99,16 +99,25 @@ h2{
     background-color: blue;
     align-items: center;
     justify-content: space-around;
+    padding: 20px;
     
 }
 
-.joinus .left {
+.joinus .left p {
     color: white;
-}
+    margin: 0px;}
 
 .footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+    
+
+
+.joinus .left p{
+    padding: 0%;
 }
