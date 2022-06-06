@@ -1,0 +1,93 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .footer{
+    background-color: #1f2937;
+    color: white;
+}
+
+.header{
+    display: flex;
+    
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+}
+
+.promotion{
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.promotionbutton{
+    color: blue;
+    background-color: white;
+    
+}
+
+.header.right{
+    display: flex;
+    
+    justify-content: space-between;
+      
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+    padding-bottom: 100px;
+}
+
+.info{
+    max-width: 500px;
+    
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex:1;
+}
+
+.quote .words{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.quote .author{
+    margin-left: 80%;
+    
+    
+}
